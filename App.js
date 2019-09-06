@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { StyleSheet, Text, View, Animated, TouchableWithoutFeedback } from 'react-native';
 import AnimatedFunctions from './src/Functions';
 import DecayFunction from './src/DecayFunction';
+import Combine from './src/Combine';
+import Interpolation from './src/Interpolation';
+import HowItWorks from './src/HowItWorks';
 
 export default function App() {
   const [colorAnimation, setAnimation] = useState(new Animated.Value(0));
@@ -64,7 +67,10 @@ export default function App() {
 
   return (
     // <AnimatedFunctions/>
-    <DecayFunction/>
+    // <DecayFunction/>
+    // <Interpolation/>
+    // <Combine/>
+    <HowItWorks/>
     // <View style={styles.container}>
     //   {/* <TouchableWithoutFeedback onPress={startColorAnimation}>
     //     <Animated.View style={[styles.box, boxAnimatedStyle]}>

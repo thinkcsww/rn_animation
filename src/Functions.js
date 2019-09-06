@@ -73,10 +73,6 @@ const AnimatedFunctions = () => {
       backgroundColor: interpolated
     }
 
-        
-     
-
-
   return (
     <View style={styles.container}>
       <TouchableWithoutFeedback onPress={handlePress}>
